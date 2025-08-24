@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Léa Palmer – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Open+Sans:wght@400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.typekit.net/your-fontkit.css" /> <!-- Pour FabianeStem et Liberation Sans si tu as une Typekit -->
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-left">LEA PALMER</div>
+    <div class="nav-right">
+      <span class="nav-role">motion design</span>
+      <button class="btn-contact">contact</button>
+    </div>
+  </nav>
+
+  <!-- SECTION HERO -->
+  <header class="hero">
+    <div class="scrolling-text-wrapper">
+      <div class="scrolling-text">
+        MOTION DESIGNER – GRAPHISTE – WEBDESIGNER – DESIGN EDITORIAL —
+      </div>
+    </div>
+
+    <div class="hero-description">
+      <p class="intro">
+        BIENVENU DANS MON PORTFOLIO,<br />
+        VOUS POURREZ Y TROUVER QUELQUES-UNS DE MES PROJETS.
+      </p>
+      <button class="btn-outline">voir les projets</button>
+    </div>
+    </header>
+
+
+    <!--SECTION 2-->
+
+
+
+<section class="projects">
+  <h2 class="projects-title">PROJETS</h2>
+  <div class="projects-content">
+    
+    <div class="project-image">
+      <img id="project-preview" src="image/echos.png" alt="Preview projet" />
+    </div>
+
+    <ul class="project-list">
+      <li data-image="image/echos.png">
+        <a href="echos.html" class="project-link">
+          <span class="project-main">ECHOS</span> - <span class="project-sub">motion design</span>
+        </a>
+      </li>
+
+      <li data-image="image/chat.png">
+        <a href="/html/chat.html" class="project-link">
+          <span class="project-main">EXPLAINER VIDEO</span> - <span class="project-sub">motion design</span>
+        </a>
+      </li>
+
+      <li data-image="image/alice.png">
+        <span class="project-main">ALICE</span> - <span class="project-sub">direction artistique</span>
+      </li>
+
+      <li data-image="image/shining.png">
+        <span class="project-main">AFFICHE</span> - <span class="project-sub">graphisme</span>
+      </li>
+
+      <li data-image="image/carte.png">
+        <span class="project-main">CARTE INTERACTIVE</span> - <span class="project-sub">graphisme</span>
+      </li>
+    </ul>
+
+  </div>
+
+  <!-- Carrousel mobile injecté par JS -->
+  <div class="projects-carousel-mobile"></div>
+  <div class="carousel-dots-mobile"></div>
+</section>
+
+
+<!--SECTION 3-->
+
+<section class="video-section">
+  <video id="showreel" autoplay loop muted playsinline>
+    <source src="video/showreal.mp4" type="video/mp4" />
+    Votre navigateur ne supporte pas la lecture de vidéo.
+  </video>
+  <button id="mute-toggle" class="mute-btn">🔇</button>
+</section>
+
+
+
+
+<!--SECTION 4 CV-->
+<section class="timeline-section">
+  <h2 class="cv-title">MES EXPERIENCES ET FORMATIONS</h2>
+  <div class="timeline-scroll-wrapper">
+    <img src="image/CV.png" alt="Timeline CV" class="timeline-image" />
+  </div>
+</section>
+
+<!--FOOTER-->
+<footer class="footer">
+  <h1 class="footer-name">LEA PALMER</h1>
+  <h2 class="footer-subtitle">PORTFOLIO.</h2>
+</footer>
+
+
+  <script src="script.js"></script>
+  </body>
+</html>
